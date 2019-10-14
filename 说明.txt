@@ -1,0 +1,13 @@
+bean的属性：
+		id:引用名称，每个对象的唯一标识，不允许重复
+		
+		class:包名  + 类名，表示需要new的对象的路径
+		
+		init-method：指定对象使用过程中的初始化方法
+		
+		destroy-method：指定对象使用过程中的销毁方法
+		
+		bean的生命周期： 实例化  -> 初始化 —> 使用对象  ->  销毁
+		
+		<bean id="userDao" class="spring.UserDaoImpl" init-method="myInit" destroy-method="myDestroy"></bean>
+			
