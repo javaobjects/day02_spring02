@@ -7,9 +7,15 @@ public class UserDaoImpl implements IUserDao{
 	{
 		System.out.println("new UserDaoImpl() 实例化");
 	}
-	
+
 	/**
-	 * 自定义初始化方法（侵入性较低）
+	 * 
+	 * <p>Title: myInit</p>  
+	 * <p>
+	 *	Description: 
+	 * 	自定义初始化方法（侵入性较低）
+	 *  
+	 * </p>
 	 */
 	public void myInit()
 	{
@@ -21,8 +27,15 @@ public class UserDaoImpl implements IUserDao{
 		System.out.println("UserDaoImpl.selectUser..........杰成11111");
 	}
 	
+
 	/**
-	 * 自定义销毁方法（侵入性较低）
+	 * 
+	 * <p>Title: myDestroy</p>  
+	 * <p>
+	 *	Description: 
+	 *	自定义销毁方法（侵入性较低）
+	 *  
+	 * </p>
 	 */
 	public void myDestroy()
 	{
